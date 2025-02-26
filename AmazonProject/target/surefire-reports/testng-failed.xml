@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Testing firefox(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="amazon_TestFile.TestScenario4_SuccessfullyEditProfile">
+        <methods>
+          <include name="quitamazon"/>
+          <include name="successfullyeditprofile"/>
+          <include name="launchamazon"/>
+        </methods>
+      </class> <!-- amazon_TestFile.TestScenario4_SuccessfullyEditProfile -->
+      <class name="amazon_TestFile.TestScenario3_SignInFailWrongCredentials">
+        <methods>
+          <include name="quitamazon"/>
+          <include name="signinfail_wrongcredentials"/>
+          <include name="launchamazon"/>
+        </methods>
+      </class> <!-- amazon_TestFile.TestScenario3_SignInFailWrongCredentials -->
+      <class name="amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart">
+        <methods>
+          <include name="quitamazon"/>
+          <include name="updatingitemsandremovingfromcart"/>
+          <include name="launchamazon"/>
+        </methods>
+      </class> <!-- amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart -->
+      <class name="amazon_TestFile.TestScenario8_SortedProduct">
+        <methods>
+          <include name="quitamazon"/>
+          <include name="sortedproduct"/>
+          <include name="launchamazon"/>
+        </methods>
+      </class> <!-- amazon_TestFile.TestScenario8_SortedProduct -->
+      <class name="amazon_TestFile.TestScenario7_ProductDetail">
+        <methods>
+          <include name="quitamazon"/>
+          <include name="productdetailpage"/>
+          <include name="launchamazon"/>
+        </methods>
+      </class> <!-- amazon_TestFile.TestScenario7_ProductDetail -->
+    </classes>
+  </test> <!-- Testing firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

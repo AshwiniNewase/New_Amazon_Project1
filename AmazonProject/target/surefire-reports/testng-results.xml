@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="5" ignored="5" total="20" passed="7" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-26T22:42:27 IST" name="Suite" finished-at="2025-02-26T22:50:15 IST" duration-ms="468029">
+    <groups>
+    </groups>
+    <test started-at="2025-02-26T22:42:27 IST" name="Testing firefox" finished-at="2025-02-26T22:50:15 IST" duration-ms="468029">
+      <class name="amazon_TestFile.TestScenario2_SuccessfulSignIn">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario2_SuccessfulSignIn@22875539]" started-at="2025-02-26T22:42:27 IST" name="launchamazon" finished-at="2025-02-26T22:42:36 IST" duration-ms="9205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="successfulsignin()[pri:0, instance:amazon_TestFile.TestScenario2_SuccessfulSignIn@22875539]" started-at="2025-02-26T22:42:36 IST" name="successfulsignin" finished-at="2025-02-26T22:42:42 IST" duration-ms="5332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulsignin -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario2_SuccessfulSignIn@22875539]" started-at="2025-02-26T22:42:42 IST" name="quitamazon" finished-at="2025-02-26T22:42:47 IST" duration-ms="5235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario2_SuccessfulSignIn -->
+      <class name="amazon_TestFile.TestScenario8_SortedProduct">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario8_SortedProduct@e54303]" started-at="2025-02-26T22:47:11 IST" name="launchamazon" finished-at="2025-02-26T22:47:18 IST" duration-ms="6578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method retried="true" signature="sortedproduct()[pri:0, instance:amazon_TestFile.TestScenario8_SortedProduct@e54303]" started-at="2025-02-26T22:47:18 IST" name="sortedproduct" finished-at="2025-02-26T22:47:35 IST" duration-ms="17386" status="SKIP">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <select id="s-result-sort-select" class="a-native-dropdown a-declarative" name="s"> is not clickable at point (1357,119) because another element <span class="a-dropdown-prompt"> obscures it
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [248edd7c-99fa-4570-82a3-98aea98e706d, clickElement {id=4e416741-a153-424c-a505-7bf46f194774}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:14447, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 42912, moz:profile: /var/folders/x4/pmwd15yj193..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:14447/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[[[FirefoxDriver: firefox on mac (248edd7c-99fa-4570-82a3-98aea98e706d)] -> xpath: //select[@class='a-native-dropdown a-declarative']]] -> tag name: option]
+Session ID: 248edd7c-99fa-4570-82a3-98aea98e706d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <select id="s-result-sort-select" class="a-native-dropdown a-declarative" name="s"> is not clickable at point (1357,119) because another element <span class="a-dropdown-prompt"> obscures it
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [248edd7c-99fa-4570-82a3-98aea98e706d, clickElement {id=4e416741-a153-424c-a505-7bf46f194774}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:14447, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 42912, moz:profile: /var/folders/x4/pmwd15yj193..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:14447/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[[[FirefoxDriver: firefox on mac (248edd7c-99fa-4570-82a3-98aea98e706d)] -> xpath: //select[@class='a-native-dropdown a-declarative']]] -> tag name: option]
+Session ID: 248edd7c-99fa-4570-82a3-98aea98e706d
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at org.openqa.selenium.support.ui.Select.setSelected(Select.java:419)
+at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:403)
+at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:262)
+at amazon_SourceFile.HomePage.productsortby(HomePage.java:155)
+at amazon_TestFile.TestScenario8_SortedProduct.sortedproduct(TestScenario8_SortedProduct.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortedproduct -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario8_SortedProduct@e54303]" started-at="2025-02-26T22:47:35 IST" name="quitamazon" finished-at="2025-02-26T22:47:40 IST" duration-ms="4802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario8_SortedProduct@e54303]" started-at="2025-02-26T22:47:40 IST" name="launchamazon" finished-at="2025-02-26T22:47:46 IST" duration-ms="6035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="sortedproduct()[pri:0, instance:amazon_TestFile.TestScenario8_SortedProduct@e54303]" started-at="2025-02-26T22:47:46 IST" name="sortedproduct" finished-at="2025-02-26T22:48:01 IST" duration-ms="14832" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <select id="s-result-sort-select" class="a-native-dropdown a-declarative" name="s"> is not clickable at point (1357,119) because another element <span class="a-dropdown-prompt"> obscures it
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [00fa4480-b976-4bd8-9821-1b72cd11c2dd, clickElement {id=97dee0d9-931f-46cc-ae0c-83e67d85fea5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:31714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 42939, moz:profile: /var/folders/x4/pmwd15yj193..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:31714/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[[[FirefoxDriver: firefox on mac (00fa4480-b976-4bd8-9821-1b72cd11c2dd)] -> xpath: //select[@class='a-native-dropdown a-declarative']]] -> tag name: option]
+Session ID: 00fa4480-b976-4bd8-9821-1b72cd11c2dd]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <select id="s-result-sort-select" class="a-native-dropdown a-declarative" name="s"> is not clickable at point (1357,119) because another element <span class="a-dropdown-prompt"> obscures it
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [00fa4480-b976-4bd8-9821-1b72cd11c2dd, clickElement {id=97dee0d9-931f-46cc-ae0c-83e67d85fea5}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:31714, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 42939, moz:profile: /var/folders/x4/pmwd15yj193..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:31714/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Element: [[[[FirefoxDriver: firefox on mac (00fa4480-b976-4bd8-9821-1b72cd11c2dd)] -> xpath: //select[@class='a-native-dropdown a-declarative']]] -> tag name: option]
+Session ID: 00fa4480-b976-4bd8-9821-1b72cd11c2dd
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at org.openqa.selenium.support.ui.Select.setSelected(Select.java:419)
+at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:403)
+at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:262)
+at amazon_SourceFile.HomePage.productsortby(HomePage.java:155)
+at amazon_TestFile.TestScenario8_SortedProduct.sortedproduct(TestScenario8_SortedProduct.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortedproduct -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario8_SortedProduct@e54303]" started-at="2025-02-26T22:48:01 IST" name="quitamazon" finished-at="2025-02-26T22:48:07 IST" duration-ms="5667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario8_SortedProduct -->
+      <class name="amazon_TestFile.TestScenario15_SearchProductWithoutLogin">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario15_SearchProductWithoutLogin@2f40e5db]" started-at="2025-02-26T22:49:57 IST" name="launchamazon" finished-at="2025-02-26T22:50:03 IST" duration-ms="6453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="searchproductwithoutlogin()[pri:0, instance:amazon_TestFile.TestScenario15_SearchProductWithoutLogin@2f40e5db]" started-at="2025-02-26T22:50:03 IST" name="searchproductwithoutlogin" finished-at="2025-02-26T22:50:10 IST" duration-ms="6700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproductwithoutlogin -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario15_SearchProductWithoutLogin@2f40e5db]" started-at="2025-02-26T22:50:10 IST" name="quitamazon" finished-at="2025-02-26T22:50:15 IST" duration-ms="4746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario15_SearchProductWithoutLogin -->
+      <class name="amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart@e8df99a]" started-at="2025-02-26T22:48:07 IST" name="launchamazon" finished-at="2025-02-26T22:48:16 IST" duration-ms="9352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method retried="true" signature="updatingitemsandremovingfromcart()[pri:0, instance:amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart@e8df99a]" started-at="2025-02-26T22:48:16 IST" name="updatingitemsandremovingfromcart" finished-at="2025-02-26T22:48:37 IST" duration-ms="20662" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at amazon_SourceFile.HomePage.accountandlists_signin(HomePage.java:98)
+at amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart.updatingitemsandremovingfromcart(TestScenario10_UpdatingItemsAndRemovingFromCart.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatingitemsandremovingfromcart -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart@e8df99a]" started-at="2025-02-26T22:48:37 IST" name="quitamazon" finished-at="2025-02-26T22:48:42 IST" duration-ms="5489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart@e8df99a]" started-at="2025-02-26T22:48:42 IST" name="launchamazon" finished-at="2025-02-26T22:48:50 IST" duration-ms="7984" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="updatingitemsandremovingfromcart()[pri:0, instance:amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart@e8df99a]" started-at="2025-02-26T22:48:50 IST" name="updatingitemsandremovingfromcart" finished-at="2025-02-26T22:49:28 IST" duration-ms="37947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatingitemsandremovingfromcart -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart@e8df99a]" started-at="2025-02-26T22:49:28 IST" name="quitamazon" finished-at="2025-02-26T22:49:33 IST" duration-ms="4995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario10_UpdatingItemsAndRemovingFromCart -->
+      <class name="amazon_TestFile.TestScenario4_SuccessfullyEditProfile">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario4_SuccessfullyEditProfile@79c7532f]" started-at="2025-02-26T22:43:42 IST" name="launchamazon" finished-at="2025-02-26T22:43:49 IST" duration-ms="7242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method retried="true" signature="successfullyeditprofile()[pri:0, instance:amazon_TestFile.TestScenario4_SuccessfullyEditProfile@79c7532f]" started-at="2025-02-26T22:43:49 IST" name="successfullyeditprofile" finished-at="2025-02-26T22:44:25 IST" duration-ms="36129" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at amazon_SourceFile.HomePage.manageprofile(HomePage.java:106)
+at amazon_TestFile.TestScenario4_SuccessfullyEditProfile.successfullyeditprofile(TestScenario4_SuccessfullyEditProfile.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyeditprofile -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario4_SuccessfullyEditProfile@79c7532f]" started-at="2025-02-26T22:44:25 IST" name="quitamazon" finished-at="2025-02-26T22:44:30 IST" duration-ms="4832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario4_SuccessfullyEditProfile@79c7532f]" started-at="2025-02-26T22:44:30 IST" name="launchamazon" finished-at="2025-02-26T22:44:39 IST" duration-ms="9688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="successfullyeditprofile()[pri:0, instance:amazon_TestFile.TestScenario4_SuccessfullyEditProfile@79c7532f]" started-at="2025-02-26T22:44:39 IST" name="successfullyeditprofile" finished-at="2025-02-26T22:45:00 IST" duration-ms="20208" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at amazon_SourceFile.HomePage.accountandlists_signin(HomePage.java:98)
+at amazon_TestFile.TestScenario4_SuccessfullyEditProfile.successfullyeditprofile(TestScenario4_SuccessfullyEditProfile.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyeditprofile -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario4_SuccessfullyEditProfile@79c7532f]" started-at="2025-02-26T22:45:00 IST" name="quitamazon" finished-at="2025-02-26T22:45:05 IST" duration-ms="4651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario4_SuccessfullyEditProfile -->
+      <class name="amazon_TestFile.TestScenario3_SignInFailWrongCredentials">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario3_SignInFailWrongCredentials@5674e1f2]" started-at="2025-02-26T22:42:47 IST" name="launchamazon" finished-at="2025-02-26T22:42:56 IST" duration-ms="8820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method retried="true" signature="signinfail_wrongcredentials()[pri:0, instance:amazon_TestFile.TestScenario3_SignInFailWrongCredentials@5674e1f2]" started-at="2025-02-26T22:42:56 IST" name="signinfail_wrongcredentials" finished-at="2025-02-26T22:43:04 IST" duration-ms="7615" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:30273, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 42595, moz:profile: /var/folders/x4/pmwd15yj193..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:30273/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.3.1', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0, moz:accessibilityChecks: false, moz:buildID: 20250130195129, moz:debuggerAddress: 127.0.0.1:30273, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 24.3.0, moz:processID: 42595, moz:profile: /var/folders/x4/pmwd15yj193..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:30273/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:151)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:325)
+at amazon_SourceFile.HomePage.testscenario2assertion(HomePage.java:172)
+at amazon_TestFile.TestScenario3_SignInFailWrongCredentials.signinfail_wrongcredentials(TestScenario3_SignInFailWrongCredentials.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinfail_wrongcredentials -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario3_SignInFailWrongCredentials@5674e1f2]" started-at="2025-02-26T22:43:04 IST" name="quitamazon" finished-at="2025-02-26T22:43:08 IST" duration-ms="4220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario3_SignInFailWrongCredentials@5674e1f2]" started-at="2025-02-26T22:43:08 IST" name="launchamazon" finished-at="2025-02-26T22:43:16 IST" duration-ms="8201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="signinfail_wrongcredentials()[pri:0, instance:amazon_TestFile.TestScenario3_SignInFailWrongCredentials@5674e1f2]" started-at="2025-02-26T22:43:16 IST" name="signinfail_wrongcredentials" finished-at="2025-02-26T22:43:37 IST" duration-ms="20345" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at amazon_SourceFile.HomePage.accountandlists_signin(HomePage.java:98)
+at amazon_TestFile.TestScenario3_SignInFailWrongCredentials.signinfail_wrongcredentials(TestScenario3_SignInFailWrongCredentials.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinfail_wrongcredentials -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario3_SignInFailWrongCredentials@5674e1f2]" started-at="2025-02-26T22:43:37 IST" name="quitamazon" finished-at="2025-02-26T22:43:42 IST" duration-ms="4654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario3_SignInFailWrongCredentials -->
+      <class name="amazon_TestFile.TestScenario13_IfApplicableApplyCouponCode">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario13_IfApplicableApplyCouponCode@2dc995f4]" started-at="2025-02-26T22:49:33 IST" name="launchamazon" finished-at="2025-02-26T22:49:42 IST" duration-ms="8694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="ifapplicableapplycouponcode()[pri:0, instance:amazon_TestFile.TestScenario13_IfApplicableApplyCouponCode@2dc995f4]" started-at="2025-02-26T22:49:42 IST" name="ifapplicableapplycouponcode" finished-at="2025-02-26T22:49:52 IST" duration-ms="9876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifapplicableapplycouponcode -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario13_IfApplicableApplyCouponCode@2dc995f4]" started-at="2025-02-26T22:49:52 IST" name="quitamazon" finished-at="2025-02-26T22:49:57 IST" duration-ms="4945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario13_IfApplicableApplyCouponCode -->
+      <class name="amazon_TestFile.TestScenario6_SearchProductWithFilters">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario6_SearchProductWithFilters@32f232a5]" started-at="2025-02-26T22:45:32 IST" name="launchamazon" finished-at="2025-02-26T22:45:40 IST" duration-ms="8097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="searchproductwithfilters()[pri:0, instance:amazon_TestFile.TestScenario6_SearchProductWithFilters@32f232a5]" started-at="2025-02-26T22:45:40 IST" name="searchproductwithfilters" finished-at="2025-02-26T22:46:03 IST" duration-ms="23121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproductwithfilters -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario6_SearchProductWithFilters@32f232a5]" started-at="2025-02-26T22:46:03 IST" name="quitamazon" finished-at="2025-02-26T22:46:08 IST" duration-ms="4991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario6_SearchProductWithFilters -->
+      <class name="amazon_TestFile.TestScenario5_SearchProduct">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario5_SearchProduct@2a448449]" started-at="2025-02-26T22:45:05 IST" name="launchamazon" finished-at="2025-02-26T22:45:13 IST" duration-ms="8833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="searchproduct()[pri:0, instance:amazon_TestFile.TestScenario5_SearchProduct@2a448449]" started-at="2025-02-26T22:45:13 IST" name="searchproduct" finished-at="2025-02-26T22:45:26 IST" duration-ms="13038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario5_SearchProduct@2a448449]" started-at="2025-02-26T22:45:27 IST" name="quitamazon" finished-at="2025-02-26T22:45:32 IST" duration-ms="4890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario5_SearchProduct -->
+      <class name="amazon_TestFile.TestScenario7_ProductDetail">
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario7_ProductDetail@43f82e78]" started-at="2025-02-26T22:46:08 IST" name="launchamazon" finished-at="2025-02-26T22:46:15 IST" duration-ms="6530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method retried="true" signature="productdetailpage()[pri:0, instance:amazon_TestFile.TestScenario7_ProductDetail@43f82e78]" started-at="2025-02-26T22:46:15 IST" name="productdetailpage" finished-at="2025-02-26T22:46:37 IST" duration-ms="21895" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.getClass()" because "exceptionDriver" is null
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at amazon_SourceFile.HomePage.accountandlists_signin(HomePage.java:98)
+at amazon_TestFile.TestScenario7_ProductDetail.productdetailpage(TestScenario7_ProductDetail.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productdetailpage -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario7_ProductDetail@43f82e78]" started-at="2025-02-26T22:46:37 IST" name="quitamazon" finished-at="2025-02-26T22:46:41 IST" duration-ms="4693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+        <test-method is-config="true" signature="launchamazon(java.lang.String)[pri:0, instance:amazon_TestFile.TestScenario7_ProductDetail@43f82e78]" started-at="2025-02-26T22:46:41 IST" name="launchamazon" finished-at="2025-02-26T22:46:51 IST" duration-ms="9731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchamazon -->
+        <test-method signature="productdetailpage()[pri:0, instance:amazon_TestFile.TestScenario7_ProductDetail@43f82e78]" started-at="2025-02-26T22:46:51 IST" name="productdetailpage" finished-at="2025-02-26T22:47:06 IST" duration-ms="14793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productdetailpage -->
+        <test-method is-config="true" signature="quitamazon()[pri:0, instance:amazon_TestFile.TestScenario7_ProductDetail@43f82e78]" started-at="2025-02-26T22:47:06 IST" name="quitamazon" finished-at="2025-02-26T22:47:11 IST" duration-ms="4943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitamazon -->
+      </class> <!-- amazon_TestFile.TestScenario7_ProductDetail -->
+    </test> <!-- Testing firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
