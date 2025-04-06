@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+    <test name="Testing Chrome">
+        <classes>
+            <class name="Package_Project2.TestCase1_SuccessfulLogin">
+                <methods>
+                    <include name="testcase1"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase2_LoginWithIncorrectCredentials">
+                <methods>
+                    <include name="testcase2"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase3_LoginSerachFlightLogout">
+                <methods>
+                    <include name="testcase3"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase4_SearchOneWayFlight">
+                <methods>
+                    <include name="testcase4"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase5_SearchRoundTripFlights">
+                <methods>
+                    <include name="testcase5"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase6_DifferentClassesSearch">
+                <methods>
+                    <include name="testcase6"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase7_MultiCityFlightSearch">
+                <methods>
+                    <include name="testcase7"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase8_SeatSelctionDuringBookingProcess">
+                <methods>
+                    <include name="testcase8"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase9_ValidateFlightInfoFlightFareBaggageRuleAndCancellationRules">
+                <methods>
+                    <include name="testcase9"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase10_MakeThePayment">
+                <methods>
+                    <include name="testcase10"/>
+                </methods>
+            </class>
+            <class name="Package_Project2.TestCase11_MultipleSeatsBooking">
+                <methods>
+                    <include name="testcase11"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
